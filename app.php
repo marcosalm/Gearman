@@ -59,7 +59,7 @@ $gearman->setWorkerConfig(
 );
 
 /**
- * Now use Angela to manage your workers.
+ * Now use GearmanManager to manage your workers.
  */
 $action = $argv[1];
 switch ($action) {
