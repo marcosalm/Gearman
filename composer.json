@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=5.5.0",
+        "ext-gearman": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GearDaemon\\": "src/",
+            "Worker\\": "worker/",
+            "Datasource\\": "datasource/"
+        }
+    }
+}
